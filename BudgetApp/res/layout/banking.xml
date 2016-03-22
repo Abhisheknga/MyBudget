@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back" >
+
+    
+        <Button
+        android:id="@+id/databaselist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="Database"
+                />
+
+      
+        <Button
+        android:id="@+id/saveuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save User"
+       
+         />
+        
+        
+        <Button
+        android:id="@+id/viewuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View User"
+       
+         />
+      
+        
+</LinearLayout>
